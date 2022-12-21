@@ -1,19 +1,23 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sveltejs/vite-plugin-svelte': ^2.0.0
+  '@sveltejs/vite-plugin-svelte': ^2.0.2
   '@tsconfig/svelte': ^3.0.0
-  svelte: ^3.54.0
-  svelte-check: ^2.10.0
+  svelte: ^3.55.0
+  svelte-check: ^2.10.3
   tslib: ^2.4.1
-  typescript: ^4.9.3
-  vite: ^4.0.0
+  typescript: ^4.9.4
+  uuid: ^9.0.0
+  vite: ^4.0.2
+
+dependencies:
+  uuid: 9.0.0
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.0+vite@4.0.2
   '@tsconfig/svelte': 3.0.0
   svelte: 3.55.0
-  svelte-check: 2.10.2_svelte@3.55.0
+  svelte-check: 2.10.3_svelte@3.55.0
   tslib: 2.4.1
   typescript: 4.9.4
   vite: 4.0.2
@@ -737,8 +741,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.10.2_svelte@3.55.0:
-    resolution: {integrity: sha512-h1Tuiir0m8J5yqN+Vx6qgKKk1L871e6a9o7rMwVWfu8Qs6Wg7x2R+wcxS3SO3VpW5JCxCat90rxPsZMYgz+HaQ==}
+  /svelte-check/2.10.3_svelte@3.55.0:
+    resolution: {integrity: sha512-Nt1aWHTOKFReBpmJ1vPug0aGysqPwJh2seM1OvICfM2oeyaA62mOiy5EvkXhltGfhCcIQcq2LoE0l1CwcWPjlw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
@@ -846,6 +850,11 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
+
+  /uuid/9.0.0:
+    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
+    hasBin: true
+    dev: false
 
   /vite/4.0.2:
     resolution: {integrity: sha512-QJaY3R+tFlTagH0exVqbgkkw45B+/bXVBzF2ZD1KB5Z8RiAoiKo60vSUf6/r4c2Vh9jfGBKM4oBI9b4/1ZJYng==}

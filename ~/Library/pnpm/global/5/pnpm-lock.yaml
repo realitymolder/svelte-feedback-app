@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   firebase-tools: ^11.19.0
+  pnpm: ^7.19.0
 
 dependencies:
   firebase-tools: 11.19.0
+  pnpm: 7.19.0
 
 packages:
 
@@ -3335,6 +3337,12 @@ packages:
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+    dev: false
+
+  /pnpm/7.19.0:
+    resolution: {integrity: sha512-0ZPqlBY9M5fqKI9Ya0kEB7PQj7Pg7bYEjXbRbg4pNnJIObzXeO+PaK/8FBd8KMgJe5QpLb6rn2nVFHNSNoz+kw==}
+    engines: {node: '>=14.6'}
+    hasBin: true
     dev: false
 
   /portfinder/1.0.32:
